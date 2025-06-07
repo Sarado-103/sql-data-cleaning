@@ -1,0 +1,40 @@
+# 🧹 SQL Data Cleaning Project
+
+## 📌 Overview
+This project demonstrates SQL data cleaning skills by transforming and preparing raw layoff data for analysis. Tasks include removing duplicates, handling nulls, formatting inconsistencies, and generating cleaned datasets.
+
+## 🗂 Dataset
+- Source: [Insert dataset source or mention "dummy data"]
+- Format: CSV / MySQL Table
+
+## ⚙️ Tools Used
+- MySQL / PostgreSQL / SQL Server
+- SQL Queries (ROW_NUMBER, CTEs, CASE, TRIM, UPPER, JOIN, etc.)
+
+## 🛠 Key SQL Skills Applied
+- ✅ CTEs for temporary data views
+- ✅ Window functions for duplicate detection
+- ✅ CASE WHEN for conditional logic
+- ✅ Data standardization (TRIM, LOWER, etc.)
+- ✅ NULL value handling
+
+## 🚀 Cleaning Steps Performed
+1. Removed exact and partial duplicates using `ROW_NUMBER()`
+2. Replaced NULLs with default values
+3. Standardized inconsistent company names
+4. Removed irrelevant rows
+5. Exported the final cleaned data
+
+## 📊 Result
+- 1000+ rows cleaned
+- Ready for Power BI/Excel/Tableau visualizations
+- Clean dataset with reliable schema
+
+## 💡 Future Improvements
+- Automate data load using Python
+- Integrate with Power BI dashboard
+
+## 🧠 What I Learned
+- How to write optimized SQL scripts for data transformation
+- Real-world challenges in cleaning unstructured data
+- The importance of CTEs and window functions in data deduplication
